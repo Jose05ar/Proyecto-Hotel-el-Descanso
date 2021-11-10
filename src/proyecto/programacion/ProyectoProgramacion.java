@@ -14,7 +14,7 @@ public class ProyectoProgramacion
    
     public static void main(String[] args) 
     {
-     JOptionPane.showMessageDialog(null, "Bienvenido a Hotel el Descanzo Puntarenas");
+     JOptionPane.showMessageDialog(null, "Bienvenido a Hotel el Descanzo Puntarenas prueba con Josue");
 int opcion;
 JOptionPane.showMessageDialog(null,"Opción 1. registro del cliente");
 JOptionPane.showMessageDialog(null,"Opción 2. Seleccion de habitaciones");
@@ -26,6 +26,7 @@ switch(opcion)
     case 1:
     Datos_cliente Fide=new Datos_cliente();
     break;
+        
    
         
         
