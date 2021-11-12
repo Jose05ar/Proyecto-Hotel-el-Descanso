@@ -16,7 +16,7 @@ public class ProyectoProgramacion
     {
      JOptionPane.showMessageDialog(null, "Bienvenido a Hotel el Descanzo Puntarenas prueba con Josue");
 int opcion;
-JOptionPane.showMessageDialog(null,"Opción 1. registro del cliente");
+JOptionPane.showMessageDialog(null,"Opción 1. registro del cliente ejemplo Jose prueba");
 JOptionPane.showMessageDialog(null,"Opción 2. Seleccion de habitaciones");
 JOptionPane.showMessageDialog(null,"Opción 3. Seleccion de tiempos de comida");
 JOptionPane.showMessageDialog(null,"Opción 4. Seleccion de actividades recreativas");
