@@ -1,6 +1,6 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+Habitaciones
+Hotel el Descanzo Puntarenas
  */
 package proyecto.programacion;
 
@@ -9,11 +9,11 @@ public class dormitorios
 {
  
  
- public static void mensage()
+ public void Cuartos()
  {
     int opcion,telefono_1,telefono_2,telefono_3,cedula_1,cedula_2,cedula_3;
    String nombre1,nombre2,nombre3,apellido_1,apellido_2,apellido_3,apellido_4,apellido_5,apellido_6;
-   JOptionPane.showMessageDialog(null,"acontinuacion se les estara dando los diferentes tipos de dormitorios y sus caracteristicas");
+   JOptionPane.showMessageDialog(null,"Acontinuacion se les estara dando los diferentes tipos de dormitorios y sus caracteristicas");
    JOptionPane.showMessageDialog(null,"Dormitorio regular: dos camas individuales, tiene un baño, television, wfi de un 1MB,\n "
           + "no cuenta con aire acondicionado,\n "
           + "cuenta con servicio habitacion(toallas e inprevistos),\n"

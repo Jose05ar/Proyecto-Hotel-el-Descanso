@@ -13,8 +13,8 @@ public class  Datos_cliente
   private String apellido2=JOptionPane.showInputDialog(null,"Digite su segundo apellido");
   private String correo=JOptionPane.showInputDialog(null,"Digite su correo");
   
-  private int cedula=Integer.parseInt(JOptionPane.showInputDialog(null,"inserte su cedula"));
-  private int telefono=Integer.parseInt(JOptionPane.showInputDialog(null,"inserte su numero telefonico"));
+  private int cedula=Integer.parseInt(JOptionPane.showInputDialog(null,"Inserte su cedula"));
+  private int telefono=Integer.parseInt(JOptionPane.showInputDialog(null,"Inserte su numero telefonico"));
   
 }
 
