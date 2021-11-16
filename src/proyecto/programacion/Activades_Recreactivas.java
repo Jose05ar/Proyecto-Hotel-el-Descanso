@@ -87,13 +87,13 @@ public class Activades_Recreactivas
     public void noche()
     {
         int op;
-        JOptionPane.showMessageDialog(null,"Actividades Ncturnas\n"+
+        JOptionPane.showMessageDialog(null,"Actividades Nocturnas\n"+
                                        "Actividad 1: Discoteca\n"+
                                        "Actividad 2: Cine y teatro\n"+
                                        "Actividad 3: Fogata con malvavisco\n"+
                                        "Actividad 4: Juego de polvora\n");
          
-    op =Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese la actividad diurna que desea realizar: "));
+    op =Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese la actividad nocturna que desea realizar: "));
     while (op < 1 || op > 4)
     {
         JOptionPane.showMessageDialog(null,"El numero seleccionado no corresponde a ninguna de nuestras actividades, por favor intentarlo de nuevo"); 
