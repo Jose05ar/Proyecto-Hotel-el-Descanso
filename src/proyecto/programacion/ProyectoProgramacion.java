@@ -16,7 +16,7 @@ public class ProyectoProgramacion
     {
      JOptionPane.showMessageDialog(null, "Bienvenido a Hotel el Descanzo Puntarenas");
 int opcion;
-JOptionPane.showMessageDialog(null,"Opción 1. registro del cliente");
+JOptionPane.showMessageDialog(null,"Opción 1. Registro del cliente");
 JOptionPane.showMessageDialog(null,"Opción 2. Seleccion de habitaciones");
 JOptionPane.showMessageDialog(null,"Opción 3. Seleccion del Buffet ");
 JOptionPane.showMessageDialog(null,"Opción 4. Seleccion de actividades recreativas");
@@ -26,10 +26,7 @@ switch(opcion)
     case 1:
     Datos_cliente Fide=new Datos_cliente();
     break;
-        
-   
-        
-        
+  
     case 2:
        
     dormitorios Fide1=new dormitorios();
@@ -42,6 +39,12 @@ switch(opcion)
        Fide2.Abierto_Cerrado_A();
        Fide2.Abierto_Cerrado_C();
        break;
+       
+    case 4:
+        Activades_Recreactivas Fide3= new Activades_Recreactivas();
+        Fide3.dia();
+        Fide3.noche();
+        
 }
 
 }

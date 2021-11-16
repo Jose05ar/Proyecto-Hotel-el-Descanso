@@ -9,7 +9,7 @@ public class Buffet
 {
  public void Abierto_Cerrado_D() 
  {
-  JOptionPane.showMessageDialog(null," Bienvenidos al buffet los sueños ");
+  JOptionPane.showMessageDialog(null,"Bienvenidos al buffet los sueños ");
   int op;  
     int hora=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese la hora de entrada a desayunar: "));
    if ( hora >= 8 && hora <= 11) 
@@ -23,27 +23,28 @@ public class Buffet
  }
    public void Desayuno () {
  
- JOptionPane.showMessageDialog(null," Desayuno 1:Pinto huevos y de bebida café\n"+
-          "Desayuno 2:Pan tocineta o natilla y de bebida juego de naranaja\n"+
-          "Desayuno 3:Cereal y frutas, si gusta agua\n"+
-          "Desayuno 4:Panqueques con miel  y de bebida agua dulce");
+ JOptionPane.showMessageDialog(null,"Menú\n"+
+          "Desayuno 1: Pinto, huevos y de bebida café\n"+
+          "Desayuno 2: Pan, tocineta o natilla y de bebida juego de naranaja\n"+
+          "Desayuno 3: Cereal y frutas, si gusta agua\n"+
+          "Desayuno 4: Panqueques con miel y de bebida agua dulce");
  
   
   int op;
-  op=Integer.parseInt(JOptionPane.showInputDialog(null,"Selecione que gusta desayunar: desayuno 1,desayuno 2,desayuno 3 y desayuno 4"));
+  op=Integer.parseInt(JOptionPane.showInputDialog(null,"Selecione cuál de los 4 desayunos anteriores desea pedir"));
    switch(op) 
    {
        case 1:
            if(op==1 )  
            {
-            JOptionPane.showMessageDialog(null,"Su desayuno es: Pinto huevos y de bebida café");
+            JOptionPane.showMessageDialog(null,"Su desayuno es: Pinto, huevos y de bebida café");
             break;
             
            }
        case 2:
            if (op==2) 
            {
-           JOptionPane.showMessageDialog(null," Su desayuno es: Pan tocineta o natilla y de bebida juego de naranaja");
+           JOptionPane.showMessageDialog(null," Su desayuno es: Pan, tocineta o natilla y de bebida juego de naranaja");
            break;
            }
        case 3:
@@ -55,11 +56,11 @@ public class Buffet
        case 4:
            if (op==4) 
            {
-            JOptionPane.showMessageDialog(null,"Su desayuno es: Panqueques con miel  y de bebida agua dulce ");
+            JOptionPane.showMessageDialog(null,"Su desayuno es: Panqueques con miel y de bebida agua dulce ");
             break;
            }
            default:
-          JOptionPane.showMessageDialog(null,"El número que inserto no concuerda con ninguno de nuestros menús ");     
+          JOptionPane.showMessageDialog(null,"El número que inserto no concuerda con ninguno de nuestros menús, por favor, intentelo denuevo");     
    }
    } 
  
@@ -78,12 +79,13 @@ public class Buffet
     }
   public void Almuerzo () {
       
-      JOptionPane.showMessageDialog(null," Almuerzo 1:Hambuerguesa con papas fritas y bebida gaseosa\n"+
-          "Almuerzo 2:Carne con arroz y frijoles de bebida fresco natural y agua\n"+
-          "Almuerzo 3:Mariscos con ensalada de vegetales y bebida coctel con o sin licor ,agua\n"+
-          "Almuerzo 4:Pizza y bebida gaseosas");
+      JOptionPane.showMessageDialog(null,"Menú\n"+
+          "Almuerzo 1:Hambuerguesa con papas fritas y bebida gaseosa\n"+
+          "Almuerzo 2: Carne con arroz y frijoles de bebida fresco natural y agua\n"+
+          "Almuerzo 3: Mariscos con ensalada de vegetales y bebida coctel con o sin licor ,agua\n"+
+          "Almuerzo 4: Pizza y bebida gaseosas");
      int op;
-     op=Integer.parseInt(JOptionPane.showInputDialog(null,"Selecione que gusta almuerzar: almuerzo 1,almuerzo 2,almuerzo 3 y almuerzo 4"));
+     op=Integer.parseInt(JOptionPane.showInputDialog(null,"Selecione cuál de los 4 almuerzos anteriores desea pedir: "));
    switch(op) 
    {
        case 1:
@@ -130,13 +132,14 @@ public class Buffet
    }   
     }
    public void Cena() {
-    JOptionPane.showMessageDialog(null," Cena 1:Pastas acompañado de un vino de la casa se añade una taza de agua\n"+
+    JOptionPane.showMessageDialog(null,"Menú\n"+
+          "Cena 1:Pastas acompañado de un vino de la casa se añade una taza de agua\n"+
           "Cena 2: Sopa azteca,fideos o de mariscos y una bebida agua\n"+
           "Cena 3:Chuleton o lomo de res con salsa blanca y acompañado de una champagne\n"+
           "Cena 4:Pescado entero y ensalada con yuca frita y cerveza para degustar");
      
     int op;
-   op=Integer.parseInt(JOptionPane.showInputDialog(null,"Selecione que gusta cenar : cena 1,cena 2,cena 3 y cena 4"));
+   op=Integer.parseInt(JOptionPane.showInputDialog(null,"Selecione cuál de las 4 cenas anteriores desea pedir: "));
    switch(op)  
    {
        case 1:
