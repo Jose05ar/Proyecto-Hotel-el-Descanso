@@ -15,13 +15,19 @@ public class ProyectoProgramacion
     public static void main(String[] args) 
     {
      JOptionPane.showMessageDialog(null, "Bienvenido a Hotel el Descanzo Puntarenas");
-int opcion;
-JOptionPane.showMessageDialog(null,"Opción 1. Registro del cliente");
-JOptionPane.showMessageDialog(null,"Opción 2. Seleccion de habitaciones");
-JOptionPane.showMessageDialog(null,"Opción 3. Seleccion del Buffet ");
-JOptionPane.showMessageDialog(null,"Opción 4. Seleccion de actividades recreativas");
-opcion = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la opción deseada: "));
-switch(opcion)
+int op;
+JOptionPane.showMessageDialog(null,"Opción 1. Registro del cliente\n"+
+                                   "Opción 2. Seleccion de habitaciones\n"+
+                                   "Opción 3. Seleccion del Buffet\n"+
+                                   "Opción 4. Seleccion de actividades recreativas");
+
+op =Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese la opción deseada: "));
+    while (op < 1 || op > 4)
+    {
+        JOptionPane.showMessageDialog(null,"El numero seleccionado no corresponde a ninguna de las opciones anteriores, por favor intentarlo denuevo"); 
+         op =Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese la opción deseada "));
+    }
+switch(op)
 {
     case 1:
     Datos_cliente Fide=new Datos_cliente();
