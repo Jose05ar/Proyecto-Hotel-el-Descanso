@@ -37,6 +37,7 @@ switch(op)
        
     dormitorios Fide1=new dormitorios();
     Fide1.Cuartos();
+    Fide1.Información_Huspedes();
     break;
   
     case 3:
