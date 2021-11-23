@@ -32,6 +32,7 @@ switch(op)
 {
     case 1:
     Datos_cliente Fide=new Datos_cliente();
+    Fide.Info();
     break;
   
     case 2:

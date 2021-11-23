@@ -97,6 +97,8 @@ public class Factura
     {
        JOptionPane.showMessageDialog(null," su check in es a las 6:00pm a 7:00pm");     
     }
+  String[] args={};
+ ProyectoProgramacion .main(args);
   }
   
   

@@ -101,7 +101,7 @@ public class Buffet
               break;
            }
        case 3:
-             if (op==2) 
+             if (op==3) 
            {
               JOptionPane.showMessageDialog(null,"Su almuerzo es: Mariscos con ensalada de vegetales y bebida coctel con o sin licor ,agua");
               break;
@@ -131,7 +131,8 @@ public class Buffet
         
    }   
     }
-   public void Cena() {
+   public void Cena() 
+   {
     JOptionPane.showMessageDialog(null,"Menú\n"+
           "Cena 1:Pastas acompañado de un vino de la casa se añade una taza de agua\n"+
           "Cena 2: Sopa azteca,fideos o de mariscos y una bebida agua\n"+
@@ -161,7 +162,7 @@ public class Buffet
               break;
            }  
        case 4:
-        if (op==3) 
+        if (op==4) 
            {
               JOptionPane.showMessageDialog(null,"Su cena es: Pescado entero y ensalada con yuca frita y cerveza para degustar");
               break;
@@ -169,7 +170,8 @@ public class Buffet
        default:
             JOptionPane.showMessageDialog(null,"El número que inserto no concuerda con ninguno de nuestros menús "); 
    }  
-        
+      String[] args={};
+ ProyectoProgramacion .main(args);  
     }
     
 }

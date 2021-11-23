@@ -137,6 +137,8 @@ public class Activades_Recreactivas
          
     }
     JOptionPane.showMessageDialog(null,"Sus actividades quedaron registradas, esperamos que las disfruten y que tengan una excelente estadía  :) ");
+     String[] args={};
+ ProyectoProgramacion .main(args);
     }
 }
 

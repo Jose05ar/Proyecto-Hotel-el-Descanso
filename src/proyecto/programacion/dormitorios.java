@@ -57,12 +57,12 @@ public class dormitorios
      for(int X=0;X<1; X++)
      {
    
-         JOptionPane.showMessageDialog(null,"Nombre:\n"+Información[0]+"Apellidos:\n"+Información[1]+","+Información[2]);
+         JOptionPane.showMessageDialog(null,"Nombre:\n"+Información[0]+"\n Apellidos:\n"+Información[1]+","+Información[2]);
                  
      }
  for(int J=0;J<1; J++)
  {
-    JOptionPane.showMessageDialog(null,"Telefono:\n"+Información2[0]+"Cedula:\n"+Información2[1]);     
+    JOptionPane.showMessageDialog(null,"Telefono:\n"+Información2[0]+"\n Cedula:\n"+Información2[1]);     
  }
    JOptionPane.showMessageDialog(null,"Información guardada en Dormitorio Regular"); 
   
@@ -93,13 +93,13 @@ public class dormitorios
 for(int X=0;X<1; X++)
      {
    
-        JOptionPane.showMessageDialog(null,"Sus datos son:\n"+Información[0]+","+Información[1]+","+Información[2]);  
+          JOptionPane.showMessageDialog(null,"Nombre:\n"+Información[0]+"\n Apellidos:\n"+Información[1]+","+Información[2]);
                   
      }
  for(int J=0;J<1; J++)
  {
-    JOptionPane.showMessageDialog(null,Información2[0]+"y\n"+Información2[1]);     
- }
+   JOptionPane.showMessageDialog(null,"Telefono:\n"+Información2[0]+"\n Cedula:\n"+Información2[1]);    
+ } 
      JOptionPane.showMessageDialog(null,"Información guardada en Dormitorio VIP"); 
       }   
       }
@@ -128,13 +128,13 @@ for(int X=0;X<1; X++)
    for( int X=0;X<3; X++)
      {
    
-         JOptionPane.showMessageDialog(null,"Sus datos son:\n"+Información[0]+","+Información[1]+","+Información[2]);
+          JOptionPane.showMessageDialog(null,"Nombre:\n"+Información[0]+"\n Apellidos:\n"+Información[1]+","+Información[2]);
                   
      }
    
  for(int J=0;J<2; J++)
  {
-   JOptionPane.showMessageDialog(null,Información2[0]+"y\n"+Información2[1]);      
+   JOptionPane.showMessageDialog(null,"Telefono:\n"+Información2[0]+"\n Cedula:\n"+Información2[1]);   
  }
     JOptionPane.showMessageDialog(null,"Información guardada en Dormitorio Diamod");    
       }       
@@ -144,7 +144,8 @@ for(int X=0;X<1; X++)
       default: 
     JOptionPane.showMessageDialog(null,"El número que ingreso no corresponde intentalo de nuevo");      
   }
-  
+  String[] args={};
+ ProyectoProgramacion .main(args);
  
  }
  
