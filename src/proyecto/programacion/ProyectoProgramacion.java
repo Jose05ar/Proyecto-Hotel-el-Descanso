@@ -19,10 +19,11 @@ int op;
 JOptionPane.showMessageDialog(null,"Opción 1. Registro del cliente\n"+
                                    "Opción 2. Seleccion de habitaciones\n"+
                                    "Opción 3. Seleccion del Buffet\n"+
-                                   "Opción 4. Seleccion de actividades recreativas");
+                                   "Opción 4. Seleccion de actividades recreativas\n"+
+                                   "Opcion 5. Factura");
 
 op =Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese la opción deseada: "));
-    while (op < 1 || op > 4)
+    while (op < 1 || op > 6)
     {
         JOptionPane.showMessageDialog(null,"El numero seleccionado no corresponde a ninguna de las opciones anteriores, por favor intentarlo denuevo"); 
          op =Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese la opción deseada "));
@@ -51,6 +52,14 @@ switch(op)
         Activades_Recreactivas Fide3= new Activades_Recreactivas();
         Fide3.dia();
         Fide3.noche();
+        break;
+        
+    case 5: 
+        
+        Factura Fide4= new Factura();
+        Fide4.facturacion();
+        Fide4.Check_in_and_Check_out();
+        break;
         
 }
 

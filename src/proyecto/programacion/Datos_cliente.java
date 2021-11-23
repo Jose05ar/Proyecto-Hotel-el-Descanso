@@ -15,6 +15,8 @@ public class  Datos_cliente
   
   private int cedula=Integer.parseInt(JOptionPane.showInputDialog(null,"Inserte su cedula"));
   private int telefono=Integer.parseInt(JOptionPane.showInputDialog(null,"Inserte su numero telefonico"));
+  private int noches= Integer.parseInt(JOptionPane.showInputDialog(null,"la cantidad de noches minimas son 5,\n"
+  +"por temas de Covid-19 ya que el gobierno nos dice que debemos tener la mitad de publico. "));
   
 }
 
