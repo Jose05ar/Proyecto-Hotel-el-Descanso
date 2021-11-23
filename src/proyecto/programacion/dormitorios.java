@@ -66,9 +66,8 @@ public class dormitorios
  {
     JOptionPane.showMessageDialog(null,"Telefono:\n"+Información2[0]+"\n Cedula:\n"+Información2[1]);     
  }
-   JOptionPane.showMessageDialog(null,"Información guardada en Dormitorio Regular"); 
-  
       }    
+      JOptionPane.showMessageDialog(null,"Información guardada en Dormitorio Regular"); 
       }
     
       break;
@@ -102,8 +101,8 @@ for(int X=0;X<1; X++)
  {
    JOptionPane.showMessageDialog(null,"Telefono:\n"+Información2[0]+"\n Cedula:\n"+Información2[1]);    
  } 
-     JOptionPane.showMessageDialog(null,"Información guardada en Dormitorio VIP"); 
       }   
+      JOptionPane.showMessageDialog(null,"Información guardada en Dormitorio VIP"); 
       }
     
       break;
@@ -137,9 +136,9 @@ for(int X=0;X<1; X++)
  for(int J=0;J<1; J++)
  {
    JOptionPane.showMessageDialog(null,"Telefono:\n"+Información2[0]+"\n Cedula:\n"+Información2[1]);   
- }
-    JOptionPane.showMessageDialog(null,"Información guardada en Dormitorio Diamod");    
+ }    
       }       
+      JOptionPane.showMessageDialog(null,"Información guardada en Dormitorio Diamod"); 
       }
      break;
       

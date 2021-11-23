@@ -14,7 +14,7 @@ public class ProyectoProgramacion
    
     public static void main(String[] args) 
     {
-     JOptionPane.showMessageDialog(null, "Bienvenido a Hotel el Descanzo Puntarenas");
+     JOptionPane.showMessageDialog(null, " Hotel el Descanzo Puntarenas");
 int op;
 JOptionPane.showMessageDialog(null,"Opción 1. Registro del cliente\n"+
                                    "Opción 2. Seleccion de habitaciones\n"+

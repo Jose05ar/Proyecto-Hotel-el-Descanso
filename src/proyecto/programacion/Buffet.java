@@ -60,7 +60,8 @@ public class Buffet
             break;
            }
            default:
-          JOptionPane.showMessageDialog(null,"El número que inserto no concuerda con ninguno de nuestros menús, por favor, intentelo denuevo");     
+          JOptionPane.showMessageDialog(null,"El número que inserto no concuerda con ninguno de nuestros menús, por favor, intentelo denuevo");
+          Desayuno();
    }
    } 
  
@@ -113,7 +114,8 @@ public class Buffet
               break;
            }
        default:
-       JOptionPane.showMessageDialog(null,"El número que inserto no concuerda con ninguno de nuestros menús ");     
+       JOptionPane.showMessageDialog(null,"El número que inserto no concuerda con ninguno de nuestros menús ");
+       Almuerzo();
    } 
     }    
    
@@ -169,7 +171,8 @@ public class Buffet
               break;
            }     
        default:
-            JOptionPane.showMessageDialog(null,"El número que inserto no concuerda con ninguno de nuestros menús "); 
+            JOptionPane.showMessageDialog(null,"El número que inserto no concuerda con ninguno de nuestros menús ");
+            Cena();
    }  
       String[] args={};
  ProyectoProgramacion .main(args);  
