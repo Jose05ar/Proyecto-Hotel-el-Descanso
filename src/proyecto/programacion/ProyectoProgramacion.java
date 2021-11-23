@@ -21,7 +21,8 @@ JOptionPane.showMessageDialog(null,"Opción 1. Registro del cliente\n"+
                                    "Opción 3. Seleccion del Buffet\n"+
                                    "Opción 4. Seleccion de actividades recreativas\n"+
                                    "Opcion 5. Factura\n"+
-                                   "Opcion 6. ¿Quienes somos?");
+                                   "Opcion 6. ¿Quienes somos?\n"+
+                                   "Opción 7. Salir ");
 
 op =Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese la opción deseada: "));
     while (op < 1 || op > 7)
@@ -67,7 +68,10 @@ switch(op)
         
         informacion Fide5=new informacion();
         Fide5.quienes_somos();
-        break;     
+        break; 
+    case 7:
+         JOptionPane.showMessageDialog(null,"Muchas gracias por su preferencia  <3 ");
+    break;
 }
 
 }

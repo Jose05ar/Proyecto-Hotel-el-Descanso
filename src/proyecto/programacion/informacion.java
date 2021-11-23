@@ -28,7 +28,10 @@ public class informacion
                                            "en la provincia de Puntarenas a solo 30 minutos de la contaminación sónica y ambiental de la ciudad  :) ");
         
         JOptionPane.showMessageDialog(null,"Para más información buscanos en nuestras pagina Sitio Web: WWW.Hotel el descanzo.com\n"+
-                                           "En donde estamos constantemente subiendo más información sobre nosotros\n"+
-                                           "Muchas gracias por su preferencia  <3 ");
+                                           "En donde estamos constantemente subiendo más información sobre nosotros");
+                                          
+    String[] args={};
+ ProyectoProgramacion .main(args);
     }
+    
 }

@@ -128,7 +128,8 @@ public class Buffet
      Cena();
    } else  {
         JOptionPane.showMessageDialog(null,"Cerrado vuelva el siguiente día");
-        
+        String[] args={};
+ ProyectoProgramacion .main(args); 
    }   
     }
    public void Cena() 

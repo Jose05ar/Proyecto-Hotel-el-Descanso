@@ -19,7 +19,8 @@ public class  Datos_cliente
  
  public void Info()
  {
- JOptionPane.showMessageDialog(null,"Su información esta en el sistema continue reservando");
+ JOptionPane.showMessageDialog(null,nombre+"\n"+apellido1+"\n"+apellido2+"\n"+correo+"\n"+cedula+"\n"+telefono+
+         "\n Su información esta en el sistema continue reservando");
    String[] args={};
  ProyectoProgramacion .main(args);
      
