@@ -20,10 +20,11 @@ JOptionPane.showMessageDialog(null,"Opción 1. Registro del cliente\n"+
                                    "Opción 2. Seleccion de habitaciones\n"+
                                    "Opción 3. Seleccion del Buffet\n"+
                                    "Opción 4. Seleccion de actividades recreativas\n"+
-                                   "Opcion 5. Factura");
+                                   "Opcion 5. Factura\n"+
+                                   "Opcion 6. ¿Quienes somos?");
 
 op =Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese la opción deseada: "));
-    while (op < 1 || op > 6)
+    while (op < 1 || op > 7)
     {
         JOptionPane.showMessageDialog(null,"El numero seleccionado no corresponde a ninguna de las opciones anteriores, por favor intentarlo denuevo"); 
          op =Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese la opción deseada "));
@@ -43,7 +44,7 @@ switch(op)
     break;
   
     case 3:
-        Buffet Fide2=new Buffet ();
+       Buffet Fide2=new Buffet ();
        Fide2.Abierto_Cerrado_D();
        Fide2.Abierto_Cerrado_A();
        Fide2.Abierto_Cerrado_C();
@@ -62,6 +63,11 @@ switch(op)
         Fide4.Check_in_and_Check_out();
         break;
         
+    case 6:
+        
+        informacion Fide5=new informacion();
+        Fide5.quienes_somos();
+        break;     
 }
 
 }

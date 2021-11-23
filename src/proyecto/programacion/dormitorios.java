@@ -23,10 +23,14 @@ public class dormitorios
   JOptionPane.showMessageDialog(null,"Dormitorio Diamond: 2 camas matrimoniales, dos baños, dos televisiones,\n"
           + "wifi de 50MB, con aire acondicionado, servicio habitacion completa, contiene mini bar, vista al mar y\n"
           + " vista a las picinas y tambien contiene balcon.\n"
-       + "para un total de $450");
- }
+          + "para un total de $450"
+          + "vista a las picinas y tambien contiene balcon.\n"
+          + "para un total de $450");
+ int opcion;
+ opcion=Integer.parseInt(JOptionPane.showInputDialog(null," digite del 1 al 3 el dormitorio que desea usar"));
   
-  public void Información_Huspedes () 
+  
+  public void Información_Huspedes() 
    {       
    String [] Información=new String[3];
    int [] Información2=new int [2];
