@@ -1,16 +1,13 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ Factura del hotel 
+Check in y Check out 
+Hotel el Descanzo Puntarenas 
  */
 package proyecto.programacion;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author criss
- */
+
 public class Factura 
         
 {
@@ -21,6 +18,10 @@ public class Factura
   
   public void facturacion()
   {
+      /* en este apartado le pedimos al usuario que vuelva a seleccionar los dormitorios que reservo para el total que
+      debe pagar en el hotel 
+      */
+      
     op=Integer.parseInt(JOptionPane.showInputDialog(null,"por favor vuelva a digitar su cuarto\n"
     +"1.Dormitorio regular\n"
     +"2.Dormitorio V.I.P\n"
@@ -54,6 +55,9 @@ public class Factura
   }
   public void Check_in_and_Check_out()
   {
+      /*
+      en este campo el usuario escoge las horas de Check-in y Check-out
+      */
    opcion_check_in=  Integer.parseInt(JOptionPane.showInputDialog(null,"acontinuacion se le va dar los horarios del check in\n"
            + "1..8:30am\n"
            + "2..9:00am\n"

@@ -12,7 +12,7 @@ public class Buffet
   JOptionPane.showMessageDialog(null,"Bienvenidos al buffet los sueños ");
   int op;  
     int hora=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese la hora de entrada a desayunar: "));
-   if ( hora >= 8 && hora <= 11) 
+   if ( hora >= 8 && hora <= 11) //funciona como filtro para evitar errores de opcion.
    {
      JOptionPane.showMessageDialog(null,"Abierto");
      Desayuno();
@@ -21,7 +21,8 @@ public class Buffet
      Almuerzo();  
    }   
  }
-   public void Desayuno () {
+   public void Desayuno () 
+   {
  
  JOptionPane.showMessageDialog(null,"Menú\n"+
           "Desayuno 1: Pinto, huevos y de bebida café\n"+
@@ -30,7 +31,7 @@ public class Buffet
           "Desayuno 4: Panqueques con miel y de bebida agua dulce");
  
   
-  int op;
+  int op;// el usuario escoge las comidas de desayuno.
   op=Integer.parseInt(JOptionPane.showInputDialog(null,"Selecione cuál de los 4 desayunos anteriores desea pedir"));
    switch(op) 
    {
@@ -87,7 +88,7 @@ public class Buffet
           "Almuerzo 4: Pizza y bebida gaseosas");
      int op;
      op=Integer.parseInt(JOptionPane.showInputDialog(null,"Selecione cuál de los 4 almuerzos anteriores desea pedir: "));
-   switch(op) 
+   switch(op) // selecciona las comidas de almuerzo.
    {
        case 1:
            if (op==1) 
@@ -144,7 +145,7 @@ public class Buffet
      
     int op;
    op=Integer.parseInt(JOptionPane.showInputDialog(null,"Selecione cuál de las 4 cenas anteriores desea pedir: "));
-   switch(op)  
+   switch(op)  // selecciona las comidas de cena.
    {
        case 1:
        if (op==1) 

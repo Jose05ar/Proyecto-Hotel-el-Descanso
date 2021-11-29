@@ -6,6 +6,9 @@ public class informacion
 {
     public void quienes_somos()
     {
+        /*
+        Esta clase da la informacion del hotel como por ejemplo: QUIENES SOMOS, DONDE ESTAMOS ETC...
+        */
         JOptionPane.showMessageDialog(null,"En este apartado podrás saber más sobre nosotros  :)  ");
         
         JOptionPane.showMessageDialog(null,"                                                   ¿Quienes somos?\n"+

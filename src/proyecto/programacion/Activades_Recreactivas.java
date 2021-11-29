@@ -9,7 +9,11 @@ import javax.swing.JOptionPane;
 
 public class Activades_Recreactivas 
 {
-    public void dia(){
+    public void dia()
+    {
+        /*
+        esta clase el usuario selecciona la las actividades recreativas que desee el usuario 
+        */
     
         int op;
     JOptionPane.showMessageDialog(null,"En este apartado podrá elegir las actividades recreativas que ofrece el hotel");
@@ -22,7 +26,7 @@ public class Activades_Recreactivas
                                        "Actividad 5: Motos acuáticas\n"+
                                        "Actividad 6: Parasailing\n");
     op =Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese la actividad diurna que desea realizar: "));
-    while (op < 1 || op > 6)
+    while (op < 1 || op > 6)//funciona como filtro para evitar errores de opcion
     {
         JOptionPane.showMessageDialog(null,"El numero seleccionado no corresponde a ninguna de nuestras actividades, por favor intentarlo de nuevo"); 
          op =Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese la actividad diurna que desea realizar: "));

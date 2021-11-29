@@ -9,7 +9,7 @@ public class dormitorios
 {
  
  
- public void Cuartos()
+ public void Cuartos()// informacion del contenido de cada dormitorio 
  { JOptionPane.showMessageDialog(null,"Acontinuacion se les estara dando los diferentes tipos de dormitorios y sus caracteristicas");
    JOptionPane.showMessageDialog(null,"Dormitorio regular: dos camas individuales, tiene un baño, television, wfi de un 1MB,\n "
           + "no cuenta con aire acondicionado,\n "
@@ -33,7 +33,7 @@ public class dormitorios
    String [] Información=new String[3];
    int [] Información2=new int [2];
     int opcion=Integer.parseInt(JOptionPane.showInputDialog(null," digite del 1 al 3 el dormitorio que desea usar"));
-  switch(opcion)
+  switch(opcion)// se selecciona los dormitorios que quiera reservar 
   {
       //Caso para el dormitorio Regular 
       case 1:
@@ -142,7 +142,7 @@ for(int X=0;X<1; X++)
       }
      break;
       
-      default: 
+      default: // en caso de error te devuleve a intentar seleccionar la opcion 
     JOptionPane.showMessageDialog(null,"El número que ingreso no corresponde intentalo de nuevo");
     Información_Huspedes(); 
   }
