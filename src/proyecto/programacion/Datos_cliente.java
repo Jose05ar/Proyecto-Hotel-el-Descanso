@@ -8,15 +8,52 @@ import javax.swing.JOptionPane;
 public class  Datos_cliente 
 {
     
-  public String nombre;
-  public String apellidos;
+  private String nombre;
+   private String apellidos;
   
-  public String correo;
+  private String correo;
   
-  public int cedula;
-  public int telefono;
+   private int cedula;
+   private int telefono;
   
- 
+ public String getnombre() {
+        return nombre;
+    }
+
+    public void setnombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getapellidos() {
+        return apellidos;
+    }
+
+    public void setapellidos(String apellidos) {
+        this.apellidos = apellidos;
+    }
+    public String correo() {
+        return correo;
+    }
+
+    public void setcorreo(String correo) {
+        this.correo= correo;
+    }
+
+    public int getcedula() {
+        return cedula;
+    }
+
+    public void setcedula(int cedula) {
+        this.cedula= cedula;
+    }
+    public int gettelefono() {
+        return telefono;
+    }
+
+    public void setEncargado(int telefono) {
+        this.telefono = telefono;
+    }
+
  public Datos_cliente(String nombre,String apellidos,String correo,int cedula, int telefono)
  {
  this.apellidos=apellidos;
@@ -49,7 +86,7 @@ for(int x=0;x<ProyectoProgramacion.length;x++)//se llena los datos
 }
 for(int x=0;x<ProyectoProgramacion.length;x++)// se lee los datos que se resgistraron en el for anterior 
 {
- JOptionPane.showMessageDialog(null, ProyectoProgramacion[x].nombre+"\n"+ ProyectoProgramacion[x].apellidos+"\n"
+ JOptionPane.showMessageDialog(null, "La información que digito es la siguiente:\n"+ProyectoProgramacion[x].nombre+"\n"+ ProyectoProgramacion[x].apellidos+"\n"
  + ProyectoProgramacion[x].cedula+"\n"+ ProyectoProgramacion[x].correo+"\n"+ ProyectoProgramacion[x].telefono);
  
  
